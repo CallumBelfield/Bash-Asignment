@@ -10,10 +10,10 @@ The following tasks exclusively use bash and python aligning with assignment gui
 
 Directory Structure (Clean Repository)
 
-scheduler.sh Bash menu for Task 2
-submission.py Python script for Task 3
-submission.sh Bash menu for Task 3
-system_monitor.sh Bash system monitor script (Task 1)
+task_2.sh Bash menu for Task 2
+task_3_python.py Python script for Task 3
+task_3.sh Bash menu for Task 3
+task_1.sh Bash system monitor script (Task 1)
 repository_clean_up_script.sh Optional cleanup utility
 readme.txt Instructions and documentation
 
@@ -37,21 +37,21 @@ How to Run Scripts
 Task 1 – System Monitor
 
 Insert the following into a WSL: Ubuntu supported terminal
-./system_monitor.sh
+./task_1.sh
 
 Use navigation menu in console to complete tests.
 
 Task 2 – Job Scheduler
 
 Insert the following into a WSL: Ubuntu supported terminal
-./scheduler.sh
+./task_2.sh
 
 Use navigation menu in console to complete tests.
 
 Task 3 – Secure Submission System
 
 Insert the following into a WSL: Ubuntu supported terminal
-./submission.sh
+./task_3.sh
 
 Use navigation menu in console to complete tests.
 
