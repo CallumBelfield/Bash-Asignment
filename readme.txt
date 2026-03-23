@@ -8,20 +8,27 @@ The following tasks exclusively use bash and python aligning with assignment gui
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-Directory Structure
-ArchiveLogs/             Archived log files (Task 1)
-submissions/             Student assignment submissions (Task 3)
-completed_jobs.txt       Completed jobs (Task 2)
-job_queue.txt            Pending jobs (Task 2)
-login_attempts.txt       Tracks failed login attempts (Task 3)
-scheduler_log.txt        Job scheduler logs (Task 2)
-scheduler.sh             Bash menu for Task 2
-submission_log.txt       Submission system logs (Task 3)
-submission.py            Python script for Task 3
-submission.sh            Bash menu for Task 3
-system_monitor_log.txt   System monitor logs (Task 1)
-system_monitor.sh        Bash system monitor script (Task 1)
-test.log / test.pdf      Example log and submission files
+Directory Structure (Clean Repository)
+
+scheduler.sh Bash menu for Task 2
+submission.py Python script for Task 3
+submission.sh Bash menu for Task 3
+system_monitor.sh Bash system monitor script (Task 1)
+repository_clean_up_script.sh Optional cleanup utility
+readme.txt Instructions and documentation
+
+Runtime-Generated Files
+
+The following files and directories are automatically created when scripts are executed:
+
+ArchiveLogs/ Created when large logs are archived (Task 1)
+submissions/ Stores submitted files (Task 3)
+completed_jobs.txt Stores completed jobs (Task 2)
+job_queue.txt Stores pending jobs (Task 2)
+login_attempts.txt Tracks login attempts (Task 3)
+scheduler_log.txt Job scheduler logs (Task 2)
+submission_log.txt Submission system logs (Task 3)
+system_monitor_log.txt System monitor logs (Task 1)
 
 -------------------------------------------------------------------------------------------------------------------------------
 
