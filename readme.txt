@@ -6,7 +6,7 @@ Tasks:
 
 The following tasks exclusively use bash and python aligning with assignment guidance.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 Directory Structure
 ArchiveLogs/             Archived log files (Task 1)
@@ -23,7 +23,7 @@ system_monitor_log.txt   System monitor logs (Task 1)
 system_monitor.sh        Bash system monitor script (Task 1)
 test.log / test.pdf      Example log and submission files
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 How to Run Scripts
 
@@ -48,7 +48,7 @@ Insert the following into a WSL: Ubuntu supported terminal
 
 Use navigation menu in console to complete tests.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 Notes
 All log files (*_log.txt) store actions with timestamps.
@@ -57,12 +57,12 @@ Pending and completed jobs are stored in text files for persistence.
 Login attempts persist across runs via login_attempts.txt.
 Example files test.log and test.pdf are included for testing.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 DISCLOSURE: Best practice would be to clone this repository to allow changes to be made during testing.
  - Ensure terminal has WSL support otherwise the bash will not be able to execute in terminal.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 Additional feature added for OCD purposes:
 repository_clean_up_script.sh 
